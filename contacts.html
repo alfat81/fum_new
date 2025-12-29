@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Контакты | Комиссия по фигурному управлению мотоциклом | МФР</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+<header class="header">
+<div class="logo-container">
+<div class="logo-left">
+<img src="images/logo_sm.png" alt="Логотип комиссии" class="logo-img">
+</div>
+<div class="logo-right">
+<div class="official-name">МОТОЦИКЛЕТНАЯ ФЕДЕРАЦИЯ РОССИИ</div>
+<div class="commission-name">КОМИССИЯ ПО ФИГУРНОМУ УПРАВЛЕНИЮ МОТОЦИКЛОМ (МОТОДЖИМХАНА)</div>
+</div>
+</div>
+<button class="menu-toggle">
+<i class="fas fa-bars"></i>
+</button>
+<nav class="main-nav">
+<ul>
+<li><a href="index.html" class="nav-link">Главная</a></li>
+<li><a href="about.html" class="nav-link">О комиссии</a></li>
+<li><a href="structure.html" class="nav-link">Структура комиссии</a></li>
+<li><a href="calendar.html" class="nav-link">Календарь соревнований</a></li>
+<li><a href="documents.html" class="nav-link">Полезные документы</a></li>
+<li><a href="contacts.html" class="nav-link active">Контакты</a></li>
+<li><a href="partners.html" class="nav-link">Партнеры</a></li>
+</ul>
+</nav>
+<!-- Mobile menu -->
+<nav class="mobile-menu">
+<div class="mobile-nav">
+<ul>
+<li><a href="index.html" class="nav-link">Главная</a></li>
+<li><a href="about.html" class="nav-link">О комиссии</a></li>
+<li><a href="structure.html" class="nav-link">Структура комиссии</a></li>
+<li><a href="calendar.html" class="nav-link">Календарь соревнований</a></li>
+<li><a href="documents.html" class="nav-link">Полезные документы</a></li>
+<li><a href="contacts.html" class="nav-link active">Контакты</a></li>
+<li><a href="partners.html" class="nav-link">Партнеры</a></li>
+</ul>
+</div>
+</nav>
+</header>
+<main class="content">
+<h1 class="page-title">Контактная информация</h1>
+<section class="contacts-intro">
+<p>Здесь вы найдете контактные данные руководства комиссии, региональных представителей и официальные контакты для связи с нами. Для оперативного решения вопросов рекомендуем обращаться к представителям вашего региона.</p>
+</section>
+<section class="main-contact">
+<div class="contact-card">
+<div class="contact-icon">
+<i class="fas fa-crown"></i>
+</div>
+<div class="contact-info">
+<h2>Председатель комиссии</h2>
+<div class="contact-person">
+<h3>Дмитрий Серов</h3>
+<div class="contact-details">
+<p><i class="fas fa-map-marker-alt"></i> Тверская область</p>
+<p><i class="fas fa-phone"></i> <a href="tel:+79778236390">+7 (977) 823-63-90</a></p>
+<p><i class="fas fa-envelope"></i> <a href="mailto:serovdima@list.ru">serovdima@list.ru</a></p>
+</div>
+</div>
+<div class="contact-person">
+<h3>Алексей Фатьянов</h3>
+<div class="contact-details">
+<p><i class="fas fa-map-marker-alt"></i> Нижний Новгород</p>
+<p><i class="fas fa-phone"></i> <a href="tel:+79201119177">+7 (920) 111-91-77</a></p>
+<p><i class="fas fa-envelope"></i> <a href="mailto:motogymkhana-nn@yandex.ru">motogymkhana-nn@yandex.ru</a></p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="regions-contacts">
+<h2 class="section-title">Региональные представители</h2>
+<p>Выберите ваш регион для получения контактной информации местного представителя комиссии:</p>
+<div class="regions-filter">
+<select id="region-filter" class="form-control">
+<option value="all">Все регионы</option>
+<option value="central">Центральный федеральный округ</option>
+<option value="northwest">Северо-Западный федеральный округ</option>
+<option value="volga">Приволжский федеральный округ</option>
+<option value="south">Южный федеральный округ</option>
+<option value="ural">Уральский федеральный округ</option>
+<option value="siberia">Сибирский федеральный округ</option>
+<option value="far-east">Дальневосточный федеральный округ</option>
+</select>
+</div>
+<div class="regions-grid" id="regions-grid">
+<!-- Центральный ФО -->
+<div class="region-card" data-region="central">
+<div class="region-header">
+<h3>Центральный федеральный округ</h3>
+</div>
+<div class="region-contacts">
+<div class="contact-item">
+<h4>Москва</h4>
+<p><i class="fas fa-user"></i> Александр Ципилев</p>
+<p><i class="fas fa-phone"></i> +7 (903) 123-45-67</p>
+<p><i class="fas fa-envelope"></i> moscow-fum@mfr.ru</p>
+</div>
+<div class="contact-item">
+<h4>Тульская область</h4>
+<p><i class="fas fa-user"></i> Александр Акимов</p>
+<p><i class="fas fa-phone"></i> +7 (956) 890-12-34</p>
+<p><i class="fas fa-envelope"></i> tula-fum@mfr.ru</p>
+</div>
+<div class="contact-item">
+<h4>Калужская область</h4>
+<p><i class="fas fa-user"></i> Максим Гаранин</p>
+<p><i class="fas fa-phone"></i> +7 (945) 789-01-23</p>
+<p><i class="fas fa-envelope"></i> kaluga-fum@mfr.ru</p>
+</div>
+</div>
+</div>
+
+<!-- Северо-Западный ФО -->
+<div class="region-card" data-region="northwest">
+<div class="region-header">
+<h3>Северо-Западный федеральный округ</h3>
+</div>
+<div class="region-contacts">
+<div class="contact-item">
+<h4>Нижний Новгород</h4>
+<p><i class="fas fa-user"></i> Алексей Фатьянов</p>
+<p><i class="fas fa-phone"></i> +7 (920) 111-91-77</p>
+<p><i class="fas fa-envelope"></i> motogymkhana-nn@yandex.ru</p>
+</div>
+<div class="contact-item">
+<h4>Ленинградская область</h4>
+<p><i class="fas fa-user"></i> Иван Петров</p>
+<p><i class="fas fa-phone"></i> +7 (931) 234-56-78</p>
+<p><i class="fas fa-envelope"></i> leningrad-fum@mfr.ru</p>
+</div>
+</div>
+</div>
+
+<!-- Приволжский ФО -->
+<div class="region-card" data-region="volga">
+<div class="region-header">
+<h3>Приволжский федеральный округ</h3>
+</div>
+<div class="region-contacts">
+<div class="contact-item">
+<h4>Тверская область</h4>
+<p><i class="fas fa-user"></i> Дмитрий Серов</p>
+<p><i class="fas fa-phone"></i> +7 (977) 823-63-90</p>
+<p><i class="fas fa-envelope"></i> serovdima@list.ru</p>
+</div>
+<div class="contact-item">
+<h4>Республика Татарстан</h4>
+<p><i class="fas fa-user"></i> Ильшат Сафаров</p>
+<p><i class="fas fa-phone"></i> +7 (934) 678-90-12</p>
+<p><i class="fas fa-envelope"></i> tatarstan-fum@mfr.ru</p>
+</div>
+<div class="contact-item">
+<h4>Ульяновская область</h4>
+<p><i class="fas fa-user"></i> Андрей Сальников</p>
+<p><i class="fas fa-phone"></i> +7 (923) 567-89-01</p>
+<p><i class="fas fa-envelope"></i> ul-fum@mfr.ru</p>
+</div>
+<div class="contact-item">
+<h4>Смоленская область</h4>
+<p><i class="fas fa-user"></i> Глеб Симдянкин</p>
+<p><i class="fas fa-phone"></i> +7 (910) 345-67-89</p>
+<p><i class="fas fa-envelope"></i> smolensk-fum@mfr.ru</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="official-address">
+<h2 class="section-title">Юридический адрес</h2>
+<div class="address-card">
+<div class="address-content">
+<h3>Мотоциклетная Федерация России</h3>
+<p><i class="fas fa-map-marker-alt"></i> 119049, г. Москва, Лужнецкая набережная, д. 24, стр. 1</p>
+<p><i class="fas fa-phone"></i> +7 (495) 956-66-30</p>
+<p><i class="fas fa-fax"></i> +7 (495) 956-66-31</p>
+<p><i class="fas fa-envelope"></i> <a href="mailto:info@mfr.ru">info@mfr.ru</a></p>
+<p><i class="fas fa-globe"></i> <a href="https://www.mfr.ru/" target="_blank">www.mfr.ru</a></p>
+</div>
+<div class="address-map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.434221442015!2d37.583741599999996!3d55.7297465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54ad6b8b3a33b%3A0x5c1a4a0b5b32b3b0!2z0YPQuy4g0JzQvtGB0LrQstCwLCDQnNC-0YHQutCy0LDQvdCw0Y8g0YPQuy4sIDI0LCDQodCw0L3QutGCLCAxMTkwNDk!5e0!3m2!1sru!2sru!4v1702323456789!5m2!1sru!2sru" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+</div>
+</section>
+<section class="quick-links">
+<h2 class="section-title">Полезные ссылки</h2>
+<div class="links-container">
+<div class="link-card">
+<h3>Официальные ресурсы</h3>
+<ul>
+<li><i class="fas fa-link"></i> <a href="https://www.mfr.ru/" target="_blank">Официальный сайт МФР</a></li>
+<li><i class="fas fa-link"></i> <a href="https://www.mfr.ru/disciplines/motodzhimkhana/" target="_blank">Страница мотоджимханы на сайте МФР</a></li>
+<li><i class="fas fa-link"></i> <a href="https://www.minsport.gov.ru/" target="_blank">Министерство спорта РФ</a></li>
+</ul>
+</div>
+<div class="link-card">
+<h3>Социальные сети</h3>
+<ul>
+<li><i class="fab fa-telegram"></i> <a href="https://t.me/motogymkhana_russia" target="_blank">Telegram канал</a></li>
+<li><i class="fab fa-vk"></i> <a href="https://vk.com/motogymkhana" target="_blank">Группа ВКонтакте</a></li>
+<li><i class="fab fa-instagram"></i> <a href="https://instagram.com/motogymkhana_russia" target="_blank">Instagram</a></li>
+</ul>
+</div>
+<div class="link-card">
+<h3>Для региональных организаций</h3>
+<ul>
+<li><i class="fas fa-file-alt"></i> <a href="documents.html">Нормативные документы</a></li>
+<li><i class="fas fa-calendar-alt"></i> <a href="calendar.html">Календарь соревнований</a></li>
+<li><i class="fas fa-users"></i> <a href="structure.html">Структура комиссии</a></li>
+</ul>
+</div>
+</div>
+</section>
+</main>
+<footer class="footer">
+<div class="footer-content">
+<div class="footer-logos">
+<a href="https://www.mfr.ru/" target="_blank">
+<img src="images/mfr_logo.png" alt="Логотип МФР">
+</a>
+<a href="https://www.minsport.gov.ru/" target="_blank">
+<img src="images/logo_minsport.png" alt="Логотип Министерства спорта РФ">
+</a>
+</div>
+<div class="footer-links">
+<a href="documents.html" class="document-link">Документы комиссии</a>
+<a href="https://www.mfr.ru/" target="_blank">Официальный сайт МФР</a>
+<a href="https://www.mfr.ru/disciplines/motodzhimkhana/" target="_blank">Страница мотоджимханы на сайте МФР</a>
+</div>
+<div class="footer-contacts">
+<p><i class="fas fa-envelope"></i> serovdima@list.ru</p>
+<p><i class="fas fa-phone"></i> +7 (977) 823-63-90</p>
+</div>
+<div class="copyright">
+<p>© 2025 Мотоциклетная Федерация России</p>
+<p class="powered-by">powered by Motogymkhana NN</p>
+</div>
+</div>
+</footer>
+</div>
+<!-- Admin tab -->
+<div class="admin-tab" id="admin-tab">
+<i class="fas fa-cog"></i>
+</div>
+<!-- Admin panel -->
+<div class="admin-panel" id="admin-panel">
+<div class="admin-header">
+<h2>Админ-панель</h2>
+<button class="close-admin-panel" id="close-admin-panel">
+<i class="fas fa-times"></i>
+</button>
+</div>
+<div class="admin-tabs">
+<button class="tab-btn active" data-tab="structure">Структура комиссии</button>
+<button class="tab-btn" data-tab="regions">Регионы</button>
+<button class="tab-btn" data-tab="settings">Настройки</button>
+</div>
+<div class="tab-content active" id="structure-tab">
+<h3>Управление структурой комиссии</h3>
+<div class="form-group">
+<label for="leader-name">Ф.И.О. руководителя</label>
+<input type="text" id="leader-name" class="form-control" placeholder="Введите ФИО">
+</div>
+<div class="form-group">
+<label for="leader-position">Должность</label>
+<input type="text" id="leader-position" class="form-control" placeholder="Введите должность">
+</div>
+<div class="form-group">
+<label for="leader-region">Регион</label>
+<input type="text" id="leader-region" class="form-control" placeholder="Введите регион">
+</div>
+<div class="form-group">
+<label for="leader-phone">Телефон</label>
+<input type="tel" id="leader-phone" class="form-control" placeholder="+7 (XXX) XXX-XX-XX">
+</div>
+<div class="form-group">
+<label for="leader-email">Email</label>
+<input type="email" id="leader-email" class="form-control" placeholder="Введите email">
+</div>
+<div class="form-group">
+<label for="leader-icon">Иконка</label>
+<select id="leader-icon" class="form-control">
+<option value="crown">Председатель</option>
+<option value="user-tie">Заместитель</option>
+<option value="file-signature">Секретарь</option>
+<option value="medal">Спортивное достижение</option>
+<option value="history">История</option>
+<option value="child">Детский</option>
+<option value="motorcycle">Мотоцикл</option>
+<option value="building">Организация</option>
+</select>
+</div>
+<button id="add-leader-btn" class="btn btn-primary">
+<i class="fas fa-plus"></i> Добавить руководителя
+</button>
+<div id="leaders-list" class="admin-list"></div>
+</div>
+<div class="tab-content" id="regions-tab">
+<h3>Управление региональными представителями</h3>
+<div class="form-group">
+<label for="region-name">Регион</label>
+<input type="text" id="region-name" class="form-control" placeholder="Введите название региона">
+</div>
+<div class="form-group">
+<label for="representative-name">Ф.И.О. представителя</label>
+<input type="text" id="representative-name" class="form-control" placeholder="Введите ФИО">
+</div>
+<div class="form-group">
+<label for="representative-position">Должность</label>
+<input type="text" id="representative-position" class="form-control" placeholder="Введите должность">
+</div>
+<div class="form-group">
+<label for="representative-phone">Телефон</label>
+<input type="tel" id="representative-phone" class="form-control" placeholder="+7 (XXX) XXX-XX-XX">
+</div>
+<div class="form-group">
+<label for="representative-email">Email</label>
+<input type="email" id="representative-email" class="form-control" placeholder="Введите email">
+</div>
+<button id="add-region-btn" class="btn btn-primary">
+<i class="fas fa-plus"></i> Добавить представителя
+</button>
+<div id="regions-list" class="admin-list"></div>
+</div>
+<div class="tab-content" id="settings-tab">
+<h3>Настройки страницы</h3>
+<div class="form-group">
+<label for="page-title">Заголовок страницы</label>
+<input type="text" id="page-title" class="form-control" value="Контакты | Комиссия по фигурному управлению мотоциклом | МФР">
+</div>
+<div class="form-group">
+<label for="meta-description">Мета-описание</label>
+<textarea id="meta-description" class="form-control" rows="2">Контактная информация комиссии по фигурному управлению мотоциклом (мотоджимхане) при Мотоциклетной Федерации России: руководство, региональные представители, юридический адрес.</textarea>
+</div>
+<button id="save-settings-btn" class="btn btn-primary">
+<i class="fas fa-save"></i> Сохранить настройки
+</button>
+</div>
+<div class="admin-login">
+<div class="form-group">
+<label for="admin-password">Пароль</label>
+<input type="password" id="admin-password" class="form-control" placeholder="Введите пароль">
+</div>
+<button class="btn btn-secondary" id="login-admin-btn">Войти</button>
+<div id="login-message" class="login-message"></div>
+</div>
+</div>
+<!-- Модальное окно подтверждения -->
+<div class="modal" id="confirmation-modal">
+<div class="modal-content">
+<h3>Подтверждение действия</h3>
+<p id="modal-message">Вы уверены, что хотите выполнить это действие?</p>
+<div class="modal-buttons">
+<button class="btn btn-secondary" id="modal-cancel">Отмена</button>
+<button class="btn btn-primary" id="modal-confirm">Подтвердить</button>
+</div>
+</div>
+</div>
+<script src="main.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+const regionFilter = document.getElementById('region-filter');
+const regionCards = document.querySelectorAll('.region-card');
+
+regionFilter.addEventListener('change', function() {
+const selectedRegion = this.value;
+regionCards.forEach(card => {
+if (selectedRegion === 'all' || card.dataset.region === selectedRegion) {
+card.style.display = 'block';
+} else {
+card.style.display = 'none';
+}
+});
+});
+});
+</script>
+</body>
+</html>
